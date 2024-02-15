@@ -1,0 +1,849 @@
+repo_name: gangadharure/terraform-provider-azurerm
+report_id: 8452b20bbae296700c591c59a12db1b2
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-15T15:35:31+00:00'
+requested_by: ms-henglu
+provider: github
+branch: main
+detected_tools_count: 62
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm
+  detection_source: Repo Metadata
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/.teamcity/components/build_azure.kt
+  detection_source: ".teamcity/components/build_azure.kt"
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2020-04-24 14:18:14.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/examples/app-service/function-python/SampleApp/requirements.txt
+  detection_source: examples/app-service/function-python/SampleApp/requirements.txt
+  last_updated_by: Borko
+  last_updated_on: 2020-10-03 05:51:09.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: ziyeqf
+  last_updated_on: 2022-11-15 15:27:54.000000000 Z
+- name: gRPC
+  description: A high performance, open-source universal RPC framework
+  website_url: https://grpc.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Remote Procedure Call (RPC)
+  image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2019-01-17 15:59:03.000000000 Z
+- name: Cloud DB for Mysql
+  description: Easily setup and manage the MySQL database service
+  website_url: https://www.ncloud.com/product/database/cloudDbMysql
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: SQL Database as a Service
+  image_url: https://img.stackshare.io/service/21275/default_078eb0ae2b56280a937ed073a3ba4332291f9ba8.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/examples/app-service/docker-compose/docker-compose.yml
+  detection_source: examples/app-service/docker-compose/docker-compose.yml
+  last_updated_by: Andrew
+  last_updated_on: 2019-02-26 00:38:29.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/examples/app-service/docker-compose/docker-compose.yml
+  detection_source: examples/app-service/docker-compose/docker-compose.yml
+  last_updated_by: Andrew
+  last_updated_on: 2019-02-26 00:38:29.000000000 Z
+- name: Azure Pipelines
+  description: Continuously build, test, and deploy to any platform and cloud
+  website_url: https://azure.microsoft.com/ko-kr/services/devops/pipelines/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/10164/528389819366_e7a0672f0480b3e98d21_512.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/vendor/github.com/Azure/go-autorest/azure-pipelines.yml
+  detection_source: vendor/github.com/Azure/go-autorest/azure-pipelines.yml
+  last_updated_by: Matthew Frahry
+  last_updated_on: 2020-10-08 16:56:08.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/vendor/golang.org/x/net/http2/Dockerfile
+  detection_source: vendor/golang.org/x/net/http2/Dockerfile
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2017-10-02 15:46:26.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/.github/workflows/automation-open-pull-request.yaml
+  detection_source: ".github/workflows/automation-open-pull-request.yaml"
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2022-08-04 05:15:08.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: 4.13.2
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/.teamcity/pom.xml
+  detection_source: ".teamcity/pom.xml"
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2020-04-24 14:18:14.000000000 Z
+- name: OpenCensus
+  description: A single distribution of libraries that automatically collect traces
+    and send them to any backend
+  website_url: https://opencensus.io/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Performance Monitoring
+  image_url: https://img.stackshare.io/service/10794/EpBd2Xrw_400x400.jpg
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/vendor/github.com/Azure/go-autorest/Gopkg.toml
+  detection_source: vendor/github.com/Azure/go-autorest/Gopkg.toml
+  last_updated_by: Matthew Frahry
+  last_updated_on: 2020-10-08 16:56:08.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/examples/app-service/function-python/SampleApp/requirements.txt
+  detection_source: examples/app-service/function-python/SampleApp/requirements.txt
+  last_updated_by: Borko
+  last_updated_on: 2020-10-03 05:51:09.000000000 Z
+- name: Terraform
+  description: Describe your complete infrastructure as code and build resources across
+    providers
+  website_url: https://www.terraform.io/
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/1276/default_2316907c4199f912e2ed79cbdb99025c9e5e2665.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/examples/sql-azure/managed_instance_failover_group/modules/sql_managed_instance/main.tf
+  detection_source: examples/sql-azure/managed_instance_failover_group/modules/sql_managed_instance/main.tf
+  last_updated_by: aristosvo
+  last_updated_on: 2021-12-09 04:47:12.000000000 Z
+- name: Terraform Registry
+  description: Describe your complete infrastructure as code and build resources across
+    providers
+  website_url: https://registry.terraform.io/
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package_manager/49093/default_cdf079d244bded073d455911e6ce679abb1b77ab.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/examples/sql-azure/managed_instance_failover_group/modules/sql_managed_instance/main.tf
+  detection_source: examples/sql-azure/managed_instance_failover_group/modules/sql_managed_instance/main.tf
+  last_updated_by: aristosvo
+  last_updated_on: 2021-12-09 04:47:12.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/vendor/github.com/Azure/go-autorest/Gopkg.toml
+  detection_source: vendor/github.com/Azure/go-autorest/Gopkg.toml
+  last_updated_by: Matthew Frahry
+  last_updated_on: 2020-10-08 16:56:08.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/vendor/github.com/agext/levenshtein/.travis.yml
+  detection_source: vendor/github.com/agext/levenshtein/.travis.yml
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2019-01-17 16:05:15.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/vendor/golang.org/x/net/http2/Dockerfile
+  detection_source: vendor/golang.org/x/net/http2/Dockerfile
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2017-10-02 15:46:26.000000000 Z
+- name: WordPress
+  description: A semantic personal publishing platform with a focus on aesthetics,
+    web standards, and usability.
+  website_url: http://wordpress.org
+  open_source: true
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: Self-Hosted Blogging / CMS
+  image_url: https://img.stackshare.io/service/250/logo.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/examples/app-service/docker-compose/docker-compose.yml
+  detection_source: examples/app-service/docker-compose/docker-compose.yml
+  last_updated_by: Andrew
+  last_updated_on: 2019-02-26 00:38:29.000000000 Z
+- name: Wordpress VIP
+  description: Australia's most popular news site. Bringing you the latest breaking
+    news from Australia and around the world.
+  website_url: http://tcog.news.com.au/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4932/zJsuwh_O_normal.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/examples/app-service/docker-compose/docker-compose.yml
+  detection_source: examples/app-service/docker-compose/docker-compose.yml
+  last_updated_by: Andrew
+  last_updated_on: 2019-02-26 00:38:29.000000000 Z
+- name: adal
+  description: This package implements an HTTP request pipeline suitable for use across
+    multiple go-routines and provides the shared routines relied on by AutoRest generated
+    Go code
+  package_url: https://pkg.go.dev/github.com/Azure/go-autorest/autorest/adal
+  version: 0.9.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2023-02-02 10:22:53.000000000 Z
+- name: agext/levenshtein
+  description: Levenshtein distance and similarity metrics with customizable edit
+    costs and Winkler-like bonus for common prefix
+  package_url: https://pkg.go.dev/github.com/agext/levenshtein
+  version: 1.2.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2022-04-04 17:03:08.000000000 Z
+- name: appengine
+  description: Go App Engine packages
+  package_url: https://pkg.go.dev/google.golang.org/appengine
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2022-04-04 17:03:08.000000000 Z
+- name: autorest
+  description: This package implements an HTTP request pipeline suitable for use across
+    multiple go-routines and provides the shared routines relied on by AutoRest generated
+    Go code
+  package_url: https://pkg.go.dev/github.com/Azure/go-autorest/autorest
+  version: 0.11.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2023-02-02 10:22:53.000000000 Z
+- name: color
+  description: Color package for Go
+  package_url: https://pkg.go.dev/github.com/fatih/color
+  version: 1.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Harshavardhan Musanalli
+  last_updated_on: 2022-07-11 02:46:27.000000000 Z
+- name: copystructure
+  description: Go
+  package_url: https://pkg.go.dev/github.com/mitchellh/copystructure
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Harshavardhan Musanalli
+  last_updated_on: 2022-07-11 02:46:27.000000000 Z
+- name: date
+  description: This package implements an HTTP request pipeline suitable for use across
+    multiple go-routines and provides the shared routines relied on by AutoRest generated
+    Go code
+  package_url: https://pkg.go.dev/github.com/Azure/go-autorest/autorest/date
+  version: 0.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Matthew Frahry
+  last_updated_on: 2020-10-08 16:56:08.000000000 Z
+- name: errwrap
+  description: Errwrap is a Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/errwrap
+  version: 0.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2022-04-04 17:03:08.000000000 Z
+- name: go-autorest
+  description: This package implements an HTTP request pipeline suitable for use across
+    multiple go-routines and provides the shared routines relied on by AutoRest generated
+    Go code
+  package_url: https://pkg.go.dev/github.com/Azure/go-autorest
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Tom Harvey
+  last_updated_on: 2023-04-27 14:35:09.000000000 Z
+- name: go-autorest/logger
+  description: This package implements an HTTP request pipeline suitable for use across
+    multiple go-routines and provides the shared routines relied on by AutoRest generated
+    Go code
+  package_url: https://pkg.go.dev/github.com/Azure/go-autorest/logger
+  version: 0.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Tom Harvey
+  last_updated_on: 2023-04-27 14:35:09.000000000 Z
+- name: go-checkpoint
+  description: Checkpoint is a package for checking version information and alerts
+    for a HashiCorp product
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-checkpoint
+  version: 0.5.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: ziyeqf
+  last_updated_on: 2022-11-15 15:27:54.000000000 Z
+- name: go-cleanhttp
+  description: Cleanhttp Functions for accessing "clean" Go http.Client values The
+    Go standard library contains a default called
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-cleanhttp
+  version: 0.5.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2023-02-02 10:22:53.000000000 Z
+- name: go-colorable
+  description: Go-colorable Colorable writer for windows
+  package_url: https://pkg.go.dev/github.com/mattn/go-colorable
+  version: 0.1.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2023-02-02 10:22:53.000000000 Z
+- name: go-diff
+  description: Diff, match and patch text in Go
+  package_url: https://pkg.go.dev/github.com/sergi/go-diff
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Steve
+  last_updated_on: 2021-04-27 23:06:58.000000000 Z
+- name: go-hclog
+  description: A common logging package for HashiCorp tools
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-hclog
+  version: 0.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2023-01-19 17:50:28.000000000 Z
+- name: go-isatty
+  description: Package isatty implements interface to isatty
+  package_url: https://pkg.go.dev/github.com/mattn/go-isatty
+  version: 0.0.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Harshavardhan Musanalli
+  last_updated_on: 2022-07-11 02:46:27.000000000 Z
+- name: go-multierror
+  description: A Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-multierror
+  version: 0.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Tom Harvey
+  last_updated_on: 2021-06-30 17:25:48.000000000 Z
+- name: go-plugin
+  description: Golang plugin system over RPC
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-plugin
+  version: 1.4.8
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Tom Bamford
+  last_updated_on: 2023-02-22 09:50:07.000000000 Z
+- name: go-retryablehttp
+  description: Retryable HTTP client in Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-retryablehttp
+  version: 0.7.2
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2023-02-02 10:22:53.000000000 Z
+- name: go-testing-interface
+  description: Go
+  package_url: https://pkg.go.dev/github.com/mitchellh/go-testing-interface
+  version: 1.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2023-01-19 17:50:28.000000000 Z
+- name: go-version
+  description: A Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-version
+  version: 1.2.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Harshavardhan Musanalli
+  last_updated_on: 2022-07-11 02:46:27.000000000 Z
+- name: go-wordwrap
+  description: A Go
+  package_url: https://pkg.go.dev/github.com/mitchellh/go-wordwrap
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2022-04-04 17:03:08.000000000 Z
+- name: google/uuid
+  description: 'Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication
+    and Security Services'
+  package_url: https://pkg.go.dev/github.com/google/uuid
+  version: 1.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2023-03-07 10:11:10.000000000 Z
+- name: hashicorp/go-uuid
+  description: Generates UUID-format strings using purely high quality random bytes
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-uuid
+  version: 1.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Tom Harvey
+  last_updated_on: 2023-04-27 14:35:09.000000000 Z
+- name: jennifer
+  description: Jennifer is a code generator for Go
+  package_url: https://pkg.go.dev/github.com/dave/jennifer
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: magodo
+  last_updated_on: 2022-11-11 06:15:56.000000000 Z
+- name: logutils
+  description: Utilities for slightly better logging in Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/logutils
+  version: 1.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2022-04-04 17:03:08.000000000 Z
+- name: mapstructure
+  description: Go library for decoding generic map values into native Go structures
+  package_url: https://pkg.go.dev/github.com/mitchellh/mapstructure
+  version: 1.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Harshavardhan Musanalli
+  last_updated_on: 2022-07-11 02:46:27.000000000 Z
+- name: msgpack
+  description: Msgpack.org[Go] MessagePack encoding for Golang
+  package_url: https://pkg.go.dev/github.com/vmihailenco/msgpack
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Harshavardhan Musanalli
+  last_updated_on: 2022-07-11 02:46:27.000000000 Z
+- name: oauth2
+  description: Go OAuth2
+  package_url: https://pkg.go.dev/golang.org/x/oauth2
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2023-02-02 10:22:53.000000000 Z
+- name: proto
+  description: Go support for Google's protocol buffers
+  package_url: https://pkg.go.dev/github.com/golang/protobuf/proto
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: ziyeqf
+  last_updated_on: 2022-11-15 15:27:54.000000000 Z
+- name: reflectwalk
+  description: Reflectwalk is a Go library for "walking" complex structures
+  package_url: https://pkg.go.dev/github.com/mitchellh/reflectwalk
+  version: 1.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2022-04-04 17:03:08.000000000 Z
+- name: run
+  description: A universal mechanism to manage goroutine lifecycles
+  package_url: https://pkg.go.dev/github.com/oklog/run
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2019-01-17 15:59:03.000000000 Z
+- name: to
+  description: This package implements an HTTP request pipeline suitable for use across
+    multiple go-routines and provides the shared routines relied on by AutoRest generated
+    Go code
+  package_url: https://pkg.go.dev/github.com/Azure/go-autorest/autorest/to
+  version: 0.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2019-01-17 15:59:03.000000000 Z
+- name: validation
+  description: This package implements an HTTP request pipeline suitable for use across
+    multiple go-routines and provides the shared routines relied on by AutoRest generated
+    Go code
+  package_url: https://pkg.go.dev/github.com/Azure/go-autorest/autorest/validation
+  version: 0.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2020-12-09 15:10:28.000000000 Z
+- name: yamux
+  description: Golang connection multiplexing library
+  package_url: https://pkg.go.dev/github.com/hashicorp/yamux
+  version: 0.0.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2022-04-04 17:03:08.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: 4.13.2
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/.teamcity/pom.xml
+  detection_source: ".teamcity/pom.xml"
+  last_updated_by: tombuildsstuff
+  last_updated_on: 2020-04-24 14:18:14.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-script-runtime
+  description: Kotlin Script Runtime
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/.teamcity/pom.xml
+  detection_source: ".teamcity/pom.xml"
+  last_updated_by: jackofallops
+  last_updated_on: 2020-05-18 11:10:25.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib-jdk8
+  description: Kotlin Standard Library JDK 8 extension
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/.teamcity/pom.xml
+  detection_source: ".teamcity/pom.xml"
+  last_updated_by: jackofallops
+  last_updated_on: 2020-05-18 11:10:25.000000000 Z
+- name: azure-functions
+  description: Azure Functions for Python
+  package_url: https://pypi.org/project/azure-functions
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/gangadharure/terraform-provider-azurerm/blob/main/examples/app-service/function-python/SampleApp/requirements.txt
+  detection_source: examples/app-service/function-python/SampleApp/requirements.txt
+  last_updated_by: Borko
+  last_updated_on: 2020-10-03 05:51:09.000000000 Z
